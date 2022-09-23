@@ -24,6 +24,8 @@ namespace SimpleCalc
             Console.WriteLine("Result division = " + resDiv);
             double resSin = Math.Sin(a);
             Console.WriteLine("Result sinus = " + resSin);
+            double resCos = Math.Cos(a);
+            Console.WriteLine("Result cosinus = " + resCos);
             Console.ReadKey();
         }
     }
